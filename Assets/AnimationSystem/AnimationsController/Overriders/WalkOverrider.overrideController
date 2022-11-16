@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WalkOverrider
+  m_Controller: {fileID: 9100000, guid: a276152395bbdac4aaf208cfe6776a12, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 39c56eccd7baaf44bbef1c7951357d77, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 39c56eccd7baaf44bbef1c7951357d77, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 6f1ac248644c16c47861cc9e1c35fac0, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 6f1ac248644c16c47861cc9e1c35fac0, type: 3}
