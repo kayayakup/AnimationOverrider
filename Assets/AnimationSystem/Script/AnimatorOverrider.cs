@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class AnimatorOverrider : MonoBehaviour
 {
-    private Animator animator;
+    private Animator animatorOverrider;
 
     private void Awake()
     {
-        animator = GetComponent<Animator>();
+        animatorOverrider = GetComponent<Animator>();
     }
 
     public void SetAnimations(AnimatorOverrideController overridercontroller)
     {
-        animator.runtimeAnimatorController = overridercontroller;
+        animatorOverrider.runtimeAnimatorController = overridercontroller;
     }
 }
